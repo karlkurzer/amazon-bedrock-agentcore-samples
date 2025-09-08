@@ -35,6 +35,8 @@ aws iam create-service-linked-role --aws-service-name rds.amazonaws.com
 Navigate to the CDK project folder and deploy the infrastructure:
 
 ```bash
+cd cdk-agentcore-strands-data-analyst-assistant
+npm i
 cdk deploy
 ```
 
